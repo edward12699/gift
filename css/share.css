@@ -1,0 +1,109 @@
+body{
+    background-color: lightyellow;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.back{
+    position: relative;
+    width: 100%;
+    padding-top: 1em;
+    background-color: #FFD270;
+    color: white;
+    font-size: 20px;
+    height: 70%;
+    text-align: center;
+    font-weight:bolder;
+    color: rgb(165, 42, 148);
+}
+.back img{
+    display: block;
+    width: 100%;
+    margin-top: 2em;
+    bottom: 20%;
+    height: 50%;
+}
+.button{
+    display: block;
+    margin: 0 auto;
+    width: 9em;
+    border-radius:40px;
+    border: 0px;
+    height: 2em;
+    line-height: 2em;
+    color: white;
+    margin-top: 1em;
+    font-size: 20px;
+    background-image: radial-gradient(at left top,#f00,#ff0);
+    background-image: -webkit-radial-gradient(at left top,#f00,#ff0);
+    text-align: center;
+}
+
+
+.commit_info{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color:lightyellow;
+    height: 50%;
+    bottom:0;
+    border: 2px solid deepskyblue;
+    font-weight: bolder;
+}
+input{
+    border: 0;
+    height: 2em;
+    border-radius: 6px;
+}
+input:nth-child(2),input:nth-child(5){
+    border: 1px gainsboro solid;
+}
+.commit1,.commit2{
+    display:inline-block ;
+    margin: 0 auto;
+    width: 3em;
+    border: 0px;
+    height: 1.5em;
+    line-height: 1.5em;
+    color: white;
+    margin-top: 2em;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.commit1 {
+    background-color: red;
+}
+.commit2{
+    background-color: darkgray;
+    color: black;
+}
+/******************************************************************************************/
+.end{
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:lightyellow ;
+    top:0
+}
+.grade{
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.grade_name {
+    font-size: 20px;
+    font-weight: bolder;
+    -webkit-text-fill-color: transparent;
+    background-image: repeating-linear-gradient(to right, red 0%, yellow 33%, blue 66%, lightyellow 100%);
+    -webkit-background-clip: text;
+}
+@-webkit-keyframes cliptext{
+    0%{background-position:20% top;}
+    50%{background-position:80% top;}
+    100%{background-position:20% top;}
+}

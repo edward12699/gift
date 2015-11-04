@@ -1,0 +1,42 @@
+body{
+    background-color: lightyellow;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.back{
+    position: relative;
+    width: 100%;
+    padding-top: 1em;
+    background-color: #FFD270;
+    color: white;
+    font-size: 20px;
+    height: 70%;
+    text-align: center;
+    font-weight:bolder;
+    color: rgb(165, 42, 148);
+}
+.back img{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+    height: 50%;
+}
+.button{
+    display: inline-block;
+    margin: 0 auto;
+    width: 7em;
+    border-radius:40px;
+    border: 0px;
+    height: 2em;
+    line-height: 2em;
+    color: white;
+    margin-top: 2em;
+    font-size: 20px;
+    background-image: radial-gradient(at left top,#f00,#ff0);
+    background-image: -webkit-radial-gradient(at left top,#f00,#ff0);
+    text-align: center;
+}
