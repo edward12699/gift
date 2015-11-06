@@ -21,6 +21,15 @@ fieldset, img {
 :focus {
     outline: 0;
 }
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  outline-color: initial;
+  outline-style: initial;
+  outline-width: 0px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 address, caption, cite, code, dfn,
 em, strong, th, var, optgroup {
     font-style: normal;
@@ -51,6 +60,8 @@ input, button, textarea, select {
 }
 body {
     line-height: 1.5;
+    background-color:#ff0000;
+    font-family: Helvetica, Arial, sans-serif;
 }
 ol, ul {
     list-style: none;

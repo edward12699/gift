@@ -1,0 +1,162 @@
+.swing{
+    margin-top: 1rem;
+    text-align: center;
+}
+.swing img{
+    width:70%;
+}
+.btn_choose{
+    margin-top: 1rem;
+    text-align: center;
+}
+.btn_choose img{
+    width:50%;
+}
+footer>a{
+    font-style:normal;
+    -webkit-text-fill-color:transparent;
+    background-image: url(../media/crying.png);
+    -webkit-animation: cliptext 20s linear infinite;
+    -webkit-background-clip: text;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}footer{
+     margin-top:2em ;
+     text-align: center;
+ }
+@-webkit-keyframes cliptext{
+    0%{background-position:20% top;}
+    50%{background-position:80% top;}
+    100%{background-position:20% top;}
+}
+.curtain{
+    display: none;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    background-color: rgba(19, 19, 21, 0.72);
+    z-index: 9999;
+    width: 100%;
+}
+.info_box{
+    position: absolute;
+    height: 50%;
+    top:0;
+    bottom:0;
+    margin: auto 0;
+    background-color:#f5f0eb;
+    border-radius: 5px;
+    left: 1rem;
+    right:1rem;
+}
+.msg-ps-h{
+    height: 5em;
+    position: relative;
+}
+.msg-ps{
+    color:#717171;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    height: 3em;
+    position: absolute;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    margin: auto auto;
+}
+.form{
+    padding: 1em;
+    overflow: hidden;
+}
+.info_box label{
+    width: 20%;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    height: 3em;
+}
+.common-hr{
+    margin:0 1em;
+background-color: rgb(216, 216, 216);
+    color: transparent;
+    height: 1px;
+   border: none;
+}
+.info_box input[type='text'],.info_box input[type='tel']{
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #000000;
+    width: 80%;
+}
+ .btn-send {
+    border: none;
+    border-radius: 5px;
+    background: #8571FE;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    bottom: 45px;
+    margin: 0 auto;
+    width: 73%;
+    display: block;
+     left: 0;
+     right: 0;
+}
+ .btn-close{
+     z-index: 999;
+     width: 30px;
+     height: 30px;
+     position: absolute;
+     right: -10px;
+     top: -10px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 100% 100%;
+     background-image: url(../media/btn_close.png);
+ }
+ /***************************************************************************************************/
+.swiper-slide img{
+    width: 4.5rem;
+    height:4.5rem;
+    margin-top: 2.25rem;
+}
+.swiper-slide{
+    text-align: center;
+    background-color: transparent;
+    height: auto;
+}
+.swiper-container{
+    height: 9rem;
+}
+.img_slider{
+    border: none;
+}
+.swing .anim{
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-name: imgShadowAnim;
+}
+@-webkit-keyframes imgShadowAnim{
+    0%{-webkit-transform:scale(1);}
+    25%{-webkit-transform:scale(1.2);}
+    50%{-webkit-transform:scale(1);}
+    75%{-webkit-transform:scale(1.2);}
+    100%{-webkit-transform:scale(1);}
+}
+.swiper-slide .anim{
+    -webkit-animation-name: imgAnim;
+    -webkit-animation-iteration-count: 2;
+    -webkit-animation-duration: 0.25s;
+    -webkit-transform-origin: center bottom;
+}
+@-webkit-keyframes imgAnim{
+    0%{-webkit-transform:rotate(0);}
+    25%{-webkit-transform:rotate(-8deg);}
+    50%{-webkit-transform:rotate(0);}
+    75%{-webkit-transform:rotate(8deg);}
+    100%{-webkit-transform:rotate(0);}
+}

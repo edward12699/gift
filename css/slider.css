@@ -1,0 +1,110 @@
+.img_slider {
+    position: relative;
+    z-index: 1;
+    border-top: 1px  solid rgb(204,204,204);
+    border-bottom:1px  solid rgb(204,204,204);
+
+
+}
+.swiper-container {
+    width: 100%;
+    height: 136px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.swiper-slide, .swiper-wrapper {
+    -ms-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+.swiper-wrapper {
+    z-index: 1;
+   display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
+    -moz-transform: translate3d(0,0,0);
+    -o-transform: translate(0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.swiper-pagination, .swiper-wrapper {
+    -webkit-transform: translate3d(0,0,0);
+}
+.swiper-slide, .swiper-wrapper {
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    width: 100%;
+}
+.swiper-slide {
+    height: 12.5em;
+    background: #fff;
+/*    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;*/
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide {
+    -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    flex-shrink: 0;
+}
+.pagination {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    text-align: right;
+    top: 106px;
+    right: 10px;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+}
+
+.swiper-pagination-bullet {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 0 0.58em;
+}
+.swiper-pagination-bullet-active {
+     opacity: 1;
+     background: rgb(245,76,71);
+ }
+.swiper-pagination-bullet {
+    width: 0.42em;
+    height: 0.42em;
+    display: inline-block;
+    border-radius: 100%;
+    background: white;
+}
+ img {
+    border: 0;
+     width: 100%;
+}
+.swiper-pagination-bullet-active {
+    background: red;
+    width:0.58em;
+    height:0.58em;
+}
